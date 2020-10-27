@@ -19,3 +19,20 @@ def max_and_min(input_str):
     # Your code here
 
 
+str_digits = input_str.split('')
+int_digits = []
+
+for str_digit in str_digits
+    int_digit = int(str_digit)
+    int_digits.append(int_digit)
+
+
+mx = max(int_digits)
+mn = min(int_digits)
+
+#use an f-string to perform string interpolation to return the disred output 
+
+return f "{mx} {mn}"
+
+
+print max_and_min("1 2 - 3 4 5")
